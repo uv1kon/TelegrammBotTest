@@ -4,6 +4,8 @@ def calculate(user_num, percent):
     calc = user_num * (percent / 100)
     return round(calc / 2.5) * 2.5
 
+"ильхан гей ветка эксперимент"
+
 def bench_calc(user_pm, type_program, week, day_index):
     day = Program[type_program][week][day_index]
     reps = []
